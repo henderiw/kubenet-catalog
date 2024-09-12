@@ -38,12 +38,13 @@ def setFinalizer(self, finalizer):
       break
   if not found:
     finalizers.append(finalizer)
+  setFinalizers(self, finalizers)
 
 def delFinalizer(self, finalizer):
   found = False
   idx = 0
   finalizers = getFinalizers(self)
-  for i, finalizerstr in finalizers:
+  for i, finalizerstr in enumerate(finalizers):
     if finalizerstr == finalizer:
       found = True
       idx = i

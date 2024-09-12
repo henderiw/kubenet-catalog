@@ -20,6 +20,7 @@ def reconcile(self):
 
   setFinalizer(self, finalizer)
 
+
   nodes = {}
   defaults = getDefaults(self)
   for topoNode in getNodes(self):
