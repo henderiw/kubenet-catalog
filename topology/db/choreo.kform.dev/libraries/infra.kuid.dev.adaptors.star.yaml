@@ -1,0 +1,32 @@
+apiVersion: choreo.kform.dev/v1alpha1
+kind: Library
+metadata:
+  creationTimestamp: "2024-09-12T13:23:36Z"
+  managedFields:
+  - apiVersion: choreo.kform.dev/v1alpha1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:spec:
+        f:code: {}
+        f:type: {}
+      f:status: {}
+    manager: inputfileloader
+    operation: Apply
+    time: "2024-09-12T13:23:36Z"
+  name: infra.kuid.dev.adaptors.star
+  resourceVersion: "0"
+  uid: d0fea0b4-d103-4a05-b3ce-fb8a76f6dbb9
+spec:
+  code: |
+    def getAdaptor(name, namespace, spec):
+      return {
+        "apiVersion": "infra.kuid.dev/v1alpha1",
+        "kind": "Adaptor",
+        "metadata": {
+            "name": name,
+            "namespace": namespace,
+        },
+        "spec": spec,
+      }
+  type: starlark
+status: {}
