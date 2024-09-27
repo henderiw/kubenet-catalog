@@ -3,15 +3,17 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.15.0
-  creationTimestamp: "2024-09-23T12:31:44Z"
+  creationTimestamp: "2024-09-26T23:14:55Z"
   managedFields:
   - apiVersion: apiextensions.k8s.io/v1
     fieldsType: FieldsV1
     fieldsV1:
       f:metadata:
         f:annotations:
+          .: {}
           f:controller-gen.kubebuilder.io/version: {}
       f:spec:
+        .: {}
         f:group: {}
         f:names:
           .: {}
@@ -21,19 +23,12 @@ metadata:
           f:singular: {}
         f:scope: {}
         f:versions: {}
-      f:status:
-        f:acceptedNames:
-          .: {}
-          f:kind: {}
-          f:plural: {}
-        f:conditions: {}
-        f:storedVersions: {}
     manager: inputfileloader
     operation: Apply
-    time: "2024-09-23T12:31:44Z"
+    time: "2024-09-26T23:14:55Z"
   name: links.infra.kuid.dev
   resourceVersion: "0"
-  uid: f888784c-afe5-40ac-ae5b-1537e5262e39
+  uid: f5fb9f16-9d18-434a-9ef4-b62fcb351a04
 spec:
   group: infra.kuid.dev
   names:
@@ -296,9 +291,3 @@ spec:
         type: object
     served: true
     storage: true
-status:
-  acceptedNames:
-    kind: ""
-    plural: ""
-  conditions: null
-  storedVersions: null
