@@ -4,7 +4,7 @@ metadata:
   annotations:
     api.choreo.kform.dev/embedded: "true"
     controller-gen.kubebuilder.io/version: v0.15.0
-  creationTimestamp: "2024-09-26T23:14:55Z"
+  creationTimestamp: "2024-09-27T14:42:29Z"
   managedFields:
   - apiVersion: apiextensions.k8s.io/v1
     fieldsType: FieldsV1
@@ -28,10 +28,10 @@ metadata:
         f:versions: {}
     manager: inputfileloader
     operation: Apply
-    time: "2024-09-26T23:14:55Z"
+    time: "2024-09-27T14:42:29Z"
   name: configgenerators.choreo.kform.dev
   resourceVersion: "0"
-  uid: 1e58ed5c-2c80-43bd-aa03-7513c24220dc
+  uid: 4ca9b14f-3744-44cf-8dee-f97bbd092dc0
 spec:
   group: choreo.kform.dev
   names:
